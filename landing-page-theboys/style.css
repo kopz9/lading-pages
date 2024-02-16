@@ -80,7 +80,7 @@ main section .btn-box{
   border-bottom: 2px solid #fff;
   transition: all .3s;
 }
-.btnx-box .btn:hover{
+.btn-box .btn:hover{
   background-color: #2d3846;
 }
 .btn-box .btn:focus{
