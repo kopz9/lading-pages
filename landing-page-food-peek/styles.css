@@ -57,7 +57,7 @@ body{
 }
 .menu{
   cursor: pointer;
-  display: non;
+  display: none;
 }
 .menu .bar{
   display: block;
