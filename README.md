@@ -4,4 +4,4 @@
 1. The Boys Page 
 2. Responsive Hamburguer Page
 3. iPhone Page with the option to change the colors on the website
-4. BarberShop Landing Page 
+4. [BarberShop Landing Page](https://landing-pages-chi-five.vercel.app/) <- check it out
