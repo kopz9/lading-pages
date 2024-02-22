@@ -205,3 +205,21 @@ body {
   justify-content: center;
   align-items: center;
 }
+.footer-contacts{
+  margin-bottom: 80px;
+}
+.footer-content{
+  padding: 0 14.3%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  line-height: 2rem;
+  margin-bottom: 50px;
+}
+
+.footer-content h3{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.footer-content span{
+  color: var(--red);
+}
