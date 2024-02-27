@@ -1,11 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nutricionista</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://crossfitpantaneiros.com/wp-content/uploads/2017/05/icones-land-01-1-180x180.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nutricionista</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <a class="logo" href="#">LOGO</a>
+        <ul>
+          <li><a href="#services-section">Serviços</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Agendar Consulta</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="main-section">
+        <div class="main-text">
+          <h1 class="main-text">
+            SEU PARCEIRO <br />
+            EM SAUDE <br />
+            E BEM-ESTAR
+          </h1>
+          <a class="main-btn" href="#container">Agendar Consulta</a>
+        </div>
+        <div class="main-img">
+          <img src="assets/doctor.svg" alt="doctor talking to patient" />
+        </div>
+      </section>
+
+      <section class="services-section">
+        <h1 class="services-text">SERVIÇOS</h1>
+        <div class="section-card">
+          <div class="card">
+            <p class="p-card">Consulta Personalizada</p>
+            <img
+              src="assets/doctor_talking.jpg"
+              alt="doctor talking to patient"
+            />
+            <p class="p-text">
+              Utilizando uma abordagem personalizada, considerando as
+              necessidades individuais de cada pessoa, para desenvolver planos
+              alimentares e estratégias nutricionais que se encaixem em seu
+              estilo de vida.
+            </p>
+            <a href="#container">CONTRATAR</a>
+          </div>
+          <div class="card">
+            <p class="p-card">Avaliação Corporal</p>
+            <img
+              src="assets/body_analysis.jpg"
+              alt="doctor talking to patient"
+            />
+            <p class="p-text">
+              A avaliação corporal fornece informações detalhadas sobre a
+              quantidade de gordura, músculo e água no corpo, além de outros
+              parâmetros relevantes.
+            </p>
+            <a href="#container">CONTRATAR</a>
+          </div>
+
+          <div class="card">
+            <p class="p-card">Suporte Online</p>
+            <img
+              src="assets/doctor_meeting.jpg"
+              alt="doctor talking to patient"
+            />
+            <p class="p-text">
+              Através de consultas virtuais, mensagens de texto, e-mails ou
+              videochamadas, você terá acesso a um nutricionista qualificado
+              para ajudá-lo a alcançar seus objetivos de saúde e bem-estar.
+            </p>
+            <a href="#container">CONTRATAR</a>
+          </div>
+
+          <div class="card">
+            <p class="p-card">Nutrição Infantil</p>
+            <img
+              src="assets/doctor-visit-570aaeb53df78c7d9edd0283.jpg"
+              alt="doctor talking to patient"
+            />
+            <p class="p-text">
+              Através de uma abordagem individualizada e lúdica, ajudamos a
+              criança a desenvolver uma relação positiva com a comida,
+              incentivando a experimentação de novos alimentos e a construção de
+              uma dieta equilibrada.
+            </p>
+            <a href="#container">CONTRATAR</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits-section">
+        <h1>VANTAGENS E BENEFICIOS</h1>
+
+        <div class="benefits-card">
+          <div class="b-card">
+            <p>VANTAGENS</p>
+            <ul>
+              <li>asdasd</li>
+              <li>asdasd</li>
+              <li>asdasd</li>
+              <li>asdasd</li>
+              <li>asdasd</li>
+              <li>asdasd</li>
+              <li>asdasd</li>
+            </ul>
+          </div>
+
+          <div class="b-card">
+            <p>BENEFICIOS</p>
+            <ul>
+              <li>c</li>
+              <li>a</li>
+              <li>c</li>
+              <li>c</li>
+              <li>c</li>
+              <li>c</li>
+              <li>c</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <div class="form-text">
+        <h1>AGENDE UMA CONSULTA</h1>
+        <h4>
+          Preencha o formulário abaixo para agendar sua consulta inicial <br />
+          e dar o primeiro passo em direção a uma vida mais saúdavel e
+          equilibrada.
+        </h4>
+        <h3>Informaçoes Pessoais</h3>
+      </div>
+        <div class="container" id="container">
+          <form action="#">
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">Nome completo</span>
+                <input
+                  type="text"
+                  placeholder="Digite seu nome completo"
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <span class="details">Endereço</span>
+                <input type="text" placeholder="Digite seu endereço" required />
+              </div>
+              <div class="input-box">
+                <span class="details">Digite seu e-mail</span>
+                <input type="text" placeholder="Digite seu e-mail" required />
+              </div>
+              <div class="input-box">
+                <span class="details">Digite seu telefone</span>
+                <input type="text" placeholder="Digite seu e-mail" required />
+              </div>              
+            </div>
+            <div class="gender-details">
+              <input type="radio" name="gender" id="dot-1">
+              <input type="radio" name="gender" id="dot-2">
+              <input type="radio" name="gender" id="dot-3">
+              <span class="gender-title">Gênero</span>
+              <div class="category">
+                <label for="dot-1">
+                  <span class="dot one"></span>
+                  <span class="gender">Homem</span>
+                </label>
+                <label for="dot-2">
+                  <span class="dot two"></span>
+                  <span class="gender">Mulher</span>
+                </label>
+                <label for="dot-3">
+                  <span class="dot three"></span>
+                  <span class="gender">Outro</span>
+                </label>
+              </div>
+            </div>
+            <div class="submit-btn"> 
+              <input type="submit" value="Enviar">
+            </div>
+          </form>
+      </section>
+    </main>
+  </body>
 </html>
