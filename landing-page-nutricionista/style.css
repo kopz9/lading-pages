@@ -252,7 +252,19 @@ form .submit-btn input {
   font-size: 24px;
   border-radius: 7px;
   border: none;
+  cursor: pointer;
 }
+
+.location{
+  margin-top: 80px;
+  text-align: center;
+  font-size: 1.4rem;
+  img{
+    padding-top: 80px;
+    width: 80%;
+  }
+}
+
 
 @media (max-width: 584px) {
   .container {
