@@ -255,16 +255,37 @@ form .submit-btn input {
   cursor: pointer;
 }
 
-.location{
+.location {
   margin-top: 80px;
   text-align: center;
   font-size: 1.4rem;
-  img{
+  img {
     padding-top: 80px;
     width: 80%;
   }
 }
 
+
+.footer-list li {
+  margin: 0;
+}
+.footer-content { 
+  margin-left: 130px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  line-height: 2rem;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.footer-content ul li {
+  list-style: none;
+}
+
+.footer-content h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
 
 @media (max-width: 584px) {
   .container {
@@ -277,10 +298,9 @@ form .submit-btn input {
   form .gender-details .category {
     width: 100%;
   }
-  .container form .user-details{
+  .container form .user-details {
     max-height: 300px;
   }
-
 }
 
 @media screen and (max-width: 1200px) {
