@@ -306,6 +306,9 @@ form .submit-btn input {
     max-height: 300px;
   }
 }
+.footer-h1{
+  color: var(--orange);
+}
 
 @media screen and (max-width: 1200px) {
   .main-btn {
